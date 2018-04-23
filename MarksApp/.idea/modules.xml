@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MarksApp.iml" filepath="$PROJECT_DIR$/MarksApp.iml" />
+      <module fileurl="file://C:\Users\WAH211\Documents\GitHub\ApplicationDev\MarksApp\MarksApp.iml" filepath="C:\Users\WAH211\Documents\GitHub\ApplicationDev\MarksApp\MarksApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\WAH211\Documents\GitHub\ApplicationDev\MarksApp\app\app.iml" filepath="C:\Users\WAH211\Documents\GitHub\ApplicationDev\MarksApp\app\app.iml" />
     </modules>
   </component>
 </project>

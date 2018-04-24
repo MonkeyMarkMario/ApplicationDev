@@ -9,7 +9,6 @@ import java.util.Random;
 
 public class StopWatch extends AppCompatActivity {
 
-    //String[] Sayings = {"Hi", "Bye", "Why are you still Here", "Please Leave"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,9 +17,27 @@ public class StopWatch extends AppCompatActivity {
 
         //}
     }
-    public void onClick(View view) {
+    public void startClick (View view) {
 
     }
+
+    public void stopClick (View view){
+
+    }
+
+    public void resetClick (View view){
+
+    }
+
+    /*private void updateTimer (float time){
+            secs = (long) (time / 1000);
+            mins = (long)((time/1000)/60);
+            hrs = (long)(((time/1000)/60)/60);
+
+            secs = secs %60;
+            seconds = String.valueOf(secs);
+
+    }*/
 
     @Override
     public void onSaveInstanceState (Bundle savedInstanceState) {

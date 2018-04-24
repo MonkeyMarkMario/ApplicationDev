@@ -22,7 +22,7 @@
         android:id="@+id/Start"
         android:layout_width="86dp"
         android:layout_height="52dp"
-        android:onClick="onClick"
+        android:onClick="startClick"
         android:text="@string/Start"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -47,16 +47,23 @@
         android:id="@+id/Stop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="stopClick"
         android:text="@string/Stop"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="241dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/reset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="resetClick"
         android:text="@string/Reset"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="319dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.652" />
 
 </android.support.constraint.ConstraintLayout>

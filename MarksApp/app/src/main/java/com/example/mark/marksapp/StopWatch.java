@@ -1,9 +1,11 @@
 package com.example.mark.marksapp;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import java.util.Locale;
@@ -79,5 +81,10 @@ public class stopwatch extends AppCompatActivity {
             }
         });
     }
+
+    @SuppressLint("NewApi")
+    private void closeClick(View view){
+        finish();
+   }
 
 }
